@@ -36,7 +36,7 @@ def act(location, status):
         return "STOP"
 
 
-# Get input from user
+# Get input for first room
 location = input("Enter current room (A/B): ").upper()
 status = input("Enter status (dirty/clean): ").lower()
 
